@@ -12,6 +12,6 @@ authors:
 version: "1.0.0"
 date-released: 2026-10-01
 license: MIT
+repository-code: "https://github.com/sivahari1/CARA"
 keywords: [structure from motion, rotation averaging, conformal risk control, uncertainty calibration]
-# Before release: set date-released to the actual release date, and add
-# repository-code: "https://github.com/<user>/CARA"  and  doi: "10.5281/zenodo.<id>"
+# After the Zenodo release: set date-released to the release date and add  doi: "10.5281/zenodo.<id>"
