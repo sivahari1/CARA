@@ -1,0 +1,23 @@
+{
+  "title": "CARA: Conformally calibrated, drift-aware rotation averaging for global structure-from-motion (code and data)",
+  "upload_type": "software",
+  "description": "Code, VGGT outputs on ETH3D, raw results, pre-registration and LaTeX sources for the CARA paper submitted to Image and Vision Computing. Code is released under the MIT licence. The files in data/ contain reference poses derived from the ETH3D benchmark and are subject to the ETH3D licence terms, not the MIT licence.",
+  "creators": [
+    {
+      "name": "Jeevakala, Siva Ramakrishna",
+      "affiliation": "G. Pulla Reddy Engineering College (Autonomous), Kurnool, India",
+      "orcid": "0000-0003-0673-055X"
+    },
+    {
+      "name": "Siva Kumar, A. P.",
+      "affiliation": "JNTUA College of Engineering, Ananthapuramu, India"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "structure from motion",
+    "rotation averaging",
+    "conformal risk control",
+    "uncertainty calibration"
+  ]
+}

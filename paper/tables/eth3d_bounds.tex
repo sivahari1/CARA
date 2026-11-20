@@ -1,0 +1,13 @@
+\begin{table}[!htbp]\centering\footnotesize
+\caption{ETH3D with VGGT: per-camera bounds at target $1-\alpha_{\mathrm{cam}}=0.9$ (mean over test scenes, 95\% interval over scenes), median $\hat\rho$, and the ratio of the median inlier edge error to its clean value.}\label{tab:eth3dbounds}
+\setlength{\tabcolsep}{2.5pt}\begin{adjustbox}{max width=\textwidth}\begin{tabular}{lcccccc}\toprule
+ & \multicolumn{2}{c}{CARA} & \multicolumn{2}{c}{CARA-static} & & \\\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Condition & cov. & hard & cov. & hard & $\hat\rho$ & ratio \\\midrule
+clean & 0.886 & 0.760 & 0.887 & 0.774 & 1.00 & 1.00 \\
+fog $t{=}0.7$ & 0.843 & 0.721 & 0.827 & 0.710 & 1.13 & 0.97 \\
+fog $t{=}0.5$ & 0.841 & 0.737 & 0.832 & 0.751 & 1.11 & 0.99 \\
+fog $t{=}0.3$ & 0.789 & 0.681 & 0.800 & 0.690 & 1.37 & 1.07 \\
+low light $0.3$ & 0.812 & 0.691 & 0.813 & 0.709 & 1.24 & 1.13 \\
+low light $0.15$ & 0.823 & 0.698 & 0.806 & 0.691 & 1.44 & 1.21 \\
+rain & 0.852 & 0.717 & 0.810 & 0.678 & 1.42 & 1.89 \\
+\bottomrule\end{tabular}\end{adjustbox}\end{table}

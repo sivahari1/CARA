@@ -1,0 +1,18 @@
+\begin{table}[!htbp]\centering\footnotesize
+\caption{Per-camera bounds (target 90\%) in the confirmatory run: coverage of registered cameras, coverage on the quarter with the largest $u_i$ (hard), median width of unflagged bounds, fraction of cameras flagged (bound $>30^\circ$), and fraction of catastrophic cameras ($>30^\circ$) that are flagged. Means over 13 test scenes and 5 seeds.}\label{tab:v2bounds}
+\setlength{\tabcolsep}{2.2pt}\begin{adjustbox}{max width=\textwidth}\begin{tabular}{llccccc}\toprule
+ & Variant & cov. & hard & width$^\circ$ & flagged & cat.\ flagged \\\midrule
+\multirow{6}{*}{clean} & base & 0.898 & 0.837 & 15.3 & 0.265 & 0.430 \\
+ & E1 & 0.911 & 0.856 & 19.6 & 0.393 & 0.535 \\
+ & E2 & 0.923 & 0.922 & 6.8 & 0.326 & 0.816 \\
+ & E2u & 0.925 & 0.924 & 8.9 & 0.517 & 0.764 \\
+ & E1+E2a & 0.903 & 0.869 & 9.1 & 0.146 & 0.559 \\
+ & E1+E2 & 0.883 & 0.891 & 4.6 & 0.229 & 0.706 \\
+\midrule
+\multirow{6}{*}{degraded} & base & 0.879 & 0.818 & 15.6 & 0.356 & 0.450 \\
+ & E1 & 0.894 & 0.842 & 19.8 & 0.489 & 0.606 \\
+ & E2 & 0.909 & 0.928 & 8.1 & 0.416 & 0.781 \\
+ & E2u & 0.925 & 0.925 & 8.4 & 0.609 & 0.727 \\
+ & E1+E2a & 0.882 & 0.853 & 10.6 & 0.212 & 0.546 \\
+ & E1+E2 & 0.867 & 0.893 & 5.1 & 0.310 & 0.671 \\
+\bottomrule\end{tabular}\end{adjustbox}\end{table}

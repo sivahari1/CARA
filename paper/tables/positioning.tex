@@ -1,0 +1,24 @@
+\begin{table*}[!htbp]
+\centering
+\caption{Positioning of CARA against the closest existing work. \ding{51}: provided; $\circ$: partly provided (see note); --: not provided. A: uses front-end uncertainty; B: recalibrates it; C: cycle (loop) consistency test; D: finite-sample, distribution-free calibrated thresholds; E: guarantee on edge decisions of a view graph; F: per-camera error bound for a \emph{jointly} estimated reconstruction; G: label-free drift detection and correction; H: abstains on cameras without consistent support; I: handles mutually consistent doppelganger edges; J: global-optimality certificate.}
+\label{tab:positioning}
+\setlength{\tabcolsep}{4pt}
+\footnotesize
+\begin{adjustbox}{max width=\textwidth}\begin{tabular}{llcccccccccc}
+\toprule
+Method & Problem & A & B & C & D & E & F & G & H & I & J\\
+\midrule
+Chatterjee \& Govindu~\cite{chatterjee2018robust} & robust rotation averaging & -- & -- & -- & -- & -- & -- & -- & -- & -- & --\\
+Zhang \emph{et al.}~\cite{zhang2023revisiting} & uncertainty-aware averaging & \ding{51} & -- & -- & -- & -- & -- & -- & -- & -- & --\\
+Olsson \emph{et al.}~\cite{olsson2025certifiably} & certifiable anisotropic averaging & \ding{51} & -- & -- & -- & -- & -- & -- & -- & -- & \ding{51}\\
+Zach \emph{et al.}~\cite{zach2010disambiguating} & loop-constraint filtering & -- & -- & \ding{51} & -- & -- & -- & -- & -- & $\circ^{1}$ & --\\
+Doppelgangers++~\cite{xiangli2025doppelgangerspp} & look-alike pair classification & -- & -- & -- & -- & -- & -- & -- & -- & \ding{51} & --\\
+Yang \& Pavone~\cite{yang2023object} & conformal object pose & -- & -- & -- & \ding{51} & -- & $\circ^{2}$ & -- & -- & -- & --\\
+Pathak \& Seifi~\cite{pathak2026adaptive} & conformal egocentric camera pose & -- & -- & -- & \ding{51} & -- & $\circ^{2}$ & -- & -- & -- & --\\
+GeoCond~\cite{ahmedt2026geocond} & reliability for feed-forward 3D & $\circ^{3}$ & $\circ^{4}$ & -- & \ding{51} & $\circ^{5}$ & -- & -- & -- & -- & --\\
+\midrule
+\textbf{CARA (ours)} & calibrated, drift-aware averaging & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & \ding{51} & -- & --\\
+\bottomrule
+\end{tabular}\end{adjustbox}\\[2pt]
+\parbox{\textwidth}{\scriptsize $^{1}$Loop constraints address duplicate structure but without a statistical guarantee. $^{2}$Bounds for one object or one frame at a time, not for the cameras of a joint reconstruction. $^{3}$Uses its own learned geometric-conditioning features rather than the front end's uncertainty. $^{4}$Maps its score to a failure probability by Platt scaling. $^{5}$Risk-controlled gating per image pair; no scene-level guarantee on the edges of a view graph.}
+\end{table*}

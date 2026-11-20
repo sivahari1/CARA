@@ -1,0 +1,3 @@
+edges 2519  median err 0.99 deg (transposed: 90.10)
+fraction > 5 deg: 0.172   > 30 deg: 0.056
+Spearman(confidence, error) = -0.546  (expect negative)

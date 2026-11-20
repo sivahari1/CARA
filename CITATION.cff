@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "CARA: Conformally calibrated, drift-aware rotation averaging for global structure-from-motion (code and data)"
+authors:
+  - family-names: Jeevakala
+    given-names: Siva Ramakrishna
+    orcid: "https://orcid.org/0000-0003-0673-055X"
+    affiliation: "G. Pulla Reddy Engineering College (Autonomous), Kurnool, India"
+  - family-names: Siva Kumar
+    given-names: A. P.
+    affiliation: "JNTUA College of Engineering, Ananthapuramu, India"
+version: "1.0.0"
+date-released: 2026-10-01
+license: MIT
+keywords: [structure from motion, rotation averaging, conformal risk control, uncertainty calibration]
+# Before release: set date-released to the actual release date, and add
+# repository-code: "https://github.com/<user>/CARA"  and  doi: "10.5281/zenodo.<id>"

@@ -1,0 +1,7 @@
+courtyard
+delivery_area
+facade
+office
+playground
+relief
+terrace

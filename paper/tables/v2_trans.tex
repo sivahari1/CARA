@@ -1,0 +1,12 @@
+\begin{table}[!htbp]\centering\footnotesize
+\caption{Downstream camera positions (E5): LUD translation averaging of VGGT's relative translations, rotated by each method's global rotations. AUC of the scale-free position error up to $0.2$ (higher is better) and its median (lower is better); +gate uses only CARA's accepted edges. GT rot.\ uses the reference rotations and all edges.}\label{tab:v2trans}
+\setlength{\tabcolsep}{2pt}\resizebox{\columnwidth}{!}{\begin{tabular}{lcccccc}\toprule
+ & GT rot. & CG & GLOMAP-RA & CARA & CARA+gate & CARA-L+gate \\\midrule
+clean & 0.173/0.32 & 0.159/0.37 & 0.161/0.38 & 0.197/0.33 & 0.225/0.33 & 0.233/0.32 \\
+fog 0.7 & 0.185/0.34 & 0.166/0.39 & 0.172/0.39 & 0.212/0.36 & 0.240/0.34 & 0.227/0.35 \\
+fog 0.5 & 0.166/0.35 & 0.149/0.41 & 0.147/0.42 & 0.175/0.39 & 0.208/0.36 & 0.202/0.37 \\
+fog 0.3 & 0.167/0.35 & 0.144/0.42 & 0.151/0.41 & 0.168/0.40 & 0.179/0.40 & 0.173/0.41 \\
+low 0.3 & 0.155/0.33 & 0.139/0.41 & 0.143/0.42 & 0.166/0.37 & 0.195/0.38 & 0.186/0.39 \\
+low 0.15 & 0.145/0.35 & 0.133/0.44 & 0.133/0.44 & 0.151/0.40 & 0.192/0.39 & 0.178/0.41 \\
+rain & 0.135/0.36 & 0.122/0.41 & 0.125/0.41 & 0.139/0.39 & 0.148/0.40 & 0.155/0.39 \\
+\bottomrule\end{tabular}}\end{table}

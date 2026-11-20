@@ -1,0 +1,1154 @@
+[
+ {
+  "file": "calib__electro__000__clean.npz",
+  "scene": "electro",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__electro__001__clean.npz",
+  "scene": "electro",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__electro__002__clean.npz",
+  "scene": "electro",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__003__clean.npz",
+  "scene": "electro",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__004__clean.npz",
+  "scene": "electro",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__electro__005__clean.npz",
+  "scene": "electro",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__006__clean.npz",
+  "scene": "electro",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__electro__007__clean.npz",
+  "scene": "electro",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__008__clean.npz",
+  "scene": "electro",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__electro__009__clean.npz",
+  "scene": "electro",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__010__clean.npz",
+  "scene": "electro",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__011__clean.npz",
+  "scene": "electro",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__electro__012__clean.npz",
+  "scene": "electro",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__electro__013__clean.npz",
+  "scene": "electro",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__electro__014__clean.npz",
+  "scene": "electro",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__electro__015__clean.npz",
+  "scene": "electro",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 38
+ },
+ {
+  "file": "calib__electro__016__clean.npz",
+  "scene": "electro",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__electro__017__clean.npz",
+  "scene": "electro",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__018__clean.npz",
+  "scene": "electro",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__019__clean.npz",
+  "scene": "electro",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__electro__020__clean.npz",
+  "scene": "electro",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__021__clean.npz",
+  "scene": "electro",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__022__clean.npz",
+  "scene": "electro",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__electro__023__clean.npz",
+  "scene": "electro",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__000__clean.npz",
+  "scene": "kicker",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__001__clean.npz",
+  "scene": "kicker",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__002__clean.npz",
+  "scene": "kicker",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__kicker__003__clean.npz",
+  "scene": "kicker",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__kicker__004__clean.npz",
+  "scene": "kicker",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__kicker__005__clean.npz",
+  "scene": "kicker",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "calib__kicker__006__clean.npz",
+  "scene": "kicker",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "calib__kicker__007__clean.npz",
+  "scene": "kicker",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "calib__kicker__008__clean.npz",
+  "scene": "kicker",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__kicker__009__clean.npz",
+  "scene": "kicker",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "calib__kicker__010__clean.npz",
+  "scene": "kicker",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__kicker__011__clean.npz",
+  "scene": "kicker",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__012__clean.npz",
+  "scene": "kicker",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "calib__kicker__013__clean.npz",
+  "scene": "kicker",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "calib__kicker__014__clean.npz",
+  "scene": "kicker",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__kicker__015__clean.npz",
+  "scene": "kicker",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__kicker__016__clean.npz",
+  "scene": "kicker",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__kicker__017__clean.npz",
+  "scene": "kicker",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__kicker__018__clean.npz",
+  "scene": "kicker",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__019__clean.npz",
+  "scene": "kicker",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__kicker__020__clean.npz",
+  "scene": "kicker",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__kicker__021__clean.npz",
+  "scene": "kicker",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__kicker__022__clean.npz",
+  "scene": "kicker",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__kicker__023__clean.npz",
+  "scene": "kicker",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__meadow__000__clean.npz",
+  "scene": "meadow",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__meadow__001__clean.npz",
+  "scene": "meadow",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__meadow__002__clean.npz",
+  "scene": "meadow",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__meadow__003__clean.npz",
+  "scene": "meadow",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__meadow__004__clean.npz",
+  "scene": "meadow",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__meadow__005__clean.npz",
+  "scene": "meadow",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 51
+ },
+ {
+  "file": "calib__meadow__006__clean.npz",
+  "scene": "meadow",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 37
+ },
+ {
+  "file": "calib__meadow__007__clean.npz",
+  "scene": "meadow",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__meadow__008__clean.npz",
+  "scene": "meadow",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__meadow__009__clean.npz",
+  "scene": "meadow",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__meadow__010__clean.npz",
+  "scene": "meadow",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__meadow__011__clean.npz",
+  "scene": "meadow",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__meadow__012__clean.npz",
+  "scene": "meadow",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__meadow__013__clean.npz",
+  "scene": "meadow",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__meadow__014__clean.npz",
+  "scene": "meadow",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__meadow__015__clean.npz",
+  "scene": "meadow",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__meadow__016__clean.npz",
+  "scene": "meadow",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__meadow__017__clean.npz",
+  "scene": "meadow",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 37
+ },
+ {
+  "file": "calib__meadow__018__clean.npz",
+  "scene": "meadow",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__meadow__019__clean.npz",
+  "scene": "meadow",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__meadow__020__clean.npz",
+  "scene": "meadow",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__meadow__021__clean.npz",
+  "scene": "meadow",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "calib__meadow__022__clean.npz",
+  "scene": "meadow",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__meadow__023__clean.npz",
+  "scene": "meadow",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__pipes__000__clean.npz",
+  "scene": "pipes",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__pipes__001__clean.npz",
+  "scene": "pipes",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 52
+ },
+ {
+  "file": "calib__pipes__002__clean.npz",
+  "scene": "pipes",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__pipes__003__clean.npz",
+  "scene": "pipes",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__pipes__004__clean.npz",
+  "scene": "pipes",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 53
+ },
+ {
+  "file": "calib__pipes__005__clean.npz",
+  "scene": "pipes",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 52
+ },
+ {
+  "file": "calib__pipes__006__clean.npz",
+  "scene": "pipes",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__pipes__007__clean.npz",
+  "scene": "pipes",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__pipes__008__clean.npz",
+  "scene": "pipes",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__pipes__009__clean.npz",
+  "scene": "pipes",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 53
+ },
+ {
+  "file": "calib__pipes__010__clean.npz",
+  "scene": "pipes",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 51
+ },
+ {
+  "file": "calib__pipes__011__clean.npz",
+  "scene": "pipes",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "calib__pipes__012__clean.npz",
+  "scene": "pipes",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "calib__pipes__013__clean.npz",
+  "scene": "pipes",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "calib__pipes__014__clean.npz",
+  "scene": "pipes",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 52
+ },
+ {
+  "file": "calib__pipes__015__clean.npz",
+  "scene": "pipes",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__pipes__016__clean.npz",
+  "scene": "pipes",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__pipes__017__clean.npz",
+  "scene": "pipes",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__pipes__018__clean.npz",
+  "scene": "pipes",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__pipes__019__clean.npz",
+  "scene": "pipes",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 52
+ },
+ {
+  "file": "calib__pipes__020__clean.npz",
+  "scene": "pipes",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__pipes__021__clean.npz",
+  "scene": "pipes",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__pipes__022__clean.npz",
+  "scene": "pipes",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__pipes__023__clean.npz",
+  "scene": "pipes",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 50
+ },
+ {
+  "file": "calib__relief_2__000__clean.npz",
+  "scene": "relief_2",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__relief_2__001__clean.npz",
+  "scene": "relief_2",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__relief_2__002__clean.npz",
+  "scene": "relief_2",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__relief_2__003__clean.npz",
+  "scene": "relief_2",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "calib__relief_2__004__clean.npz",
+  "scene": "relief_2",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 38
+ },
+ {
+  "file": "calib__relief_2__005__clean.npz",
+  "scene": "relief_2",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__006__clean.npz",
+  "scene": "relief_2",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__007__clean.npz",
+  "scene": "relief_2",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__relief_2__008__clean.npz",
+  "scene": "relief_2",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__relief_2__009__clean.npz",
+  "scene": "relief_2",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__relief_2__010__clean.npz",
+  "scene": "relief_2",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__relief_2__011__clean.npz",
+  "scene": "relief_2",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__012__clean.npz",
+  "scene": "relief_2",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__relief_2__013__clean.npz",
+  "scene": "relief_2",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__014__clean.npz",
+  "scene": "relief_2",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__015__clean.npz",
+  "scene": "relief_2",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__relief_2__016__clean.npz",
+  "scene": "relief_2",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__relief_2__017__clean.npz",
+  "scene": "relief_2",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 38
+ },
+ {
+  "file": "calib__relief_2__018__clean.npz",
+  "scene": "relief_2",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__relief_2__019__clean.npz",
+  "scene": "relief_2",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__relief_2__020__clean.npz",
+  "scene": "relief_2",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "calib__relief_2__021__clean.npz",
+  "scene": "relief_2",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__relief_2__022__clean.npz",
+  "scene": "relief_2",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "calib__relief_2__023__clean.npz",
+  "scene": "relief_2",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "calib__terrains__000__clean.npz",
+  "scene": "terrains",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__terrains__001__clean.npz",
+  "scene": "terrains",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__terrains__002__clean.npz",
+  "scene": "terrains",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__terrains__003__clean.npz",
+  "scene": "terrains",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "calib__terrains__004__clean.npz",
+  "scene": "terrains",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__terrains__005__clean.npz",
+  "scene": "terrains",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__terrains__006__clean.npz",
+  "scene": "terrains",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__terrains__007__clean.npz",
+  "scene": "terrains",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__terrains__008__clean.npz",
+  "scene": "terrains",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "calib__terrains__009__clean.npz",
+  "scene": "terrains",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__terrains__010__clean.npz",
+  "scene": "terrains",
+  "sub": 10,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "calib__terrains__011__clean.npz",
+  "scene": "terrains",
+  "sub": 11,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__terrains__012__clean.npz",
+  "scene": "terrains",
+  "sub": 12,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__terrains__013__clean.npz",
+  "scene": "terrains",
+  "sub": 13,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__terrains__014__clean.npz",
+  "scene": "terrains",
+  "sub": 14,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "calib__terrains__015__clean.npz",
+  "scene": "terrains",
+  "sub": 15,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__terrains__016__clean.npz",
+  "scene": "terrains",
+  "sub": 16,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__terrains__017__clean.npz",
+  "scene": "terrains",
+  "sub": 17,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "calib__terrains__018__clean.npz",
+  "scene": "terrains",
+  "sub": 18,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__terrains__019__clean.npz",
+  "scene": "terrains",
+  "sub": 19,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "calib__terrains__020__clean.npz",
+  "scene": "terrains",
+  "sub": 20,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__terrains__021__clean.npz",
+  "scene": "terrains",
+  "sub": 21,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "calib__terrains__022__clean.npz",
+  "scene": "terrains",
+  "sub": 22,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "calib__terrains__023__clean.npz",
+  "scene": "terrains",
+  "sub": 23,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ }
+]

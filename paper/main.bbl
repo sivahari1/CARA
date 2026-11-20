@@ -1,0 +1,227 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{pan2024glomap}
+L.~Pan, D.~Bar{\'a}th, M.~Pollefeys, J.~L. Sch{\"o}nberger, Global
+  structure-from-motion revisited, in: Proc. European Conf. Computer Vision
+  (ECCV), 2024.
+
+\bibitem{schoenberger2016sfm}
+J.~L. Sch{\"o}nberger, J.-M. Frahm, Structure-from-motion revisited, in: Proc.
+  IEEE Conf. Computer Vision and Pattern Recognition (CVPR), 2016.
+
+\bibitem{wang2025vggt}
+J.~Wang, M.~Chen, N.~Karaev, A.~Vedaldi, C.~Rupprecht, D.~Novotny, {VGGT}:
+  Visual geometry grounded transformer, in: Proc. IEEE/CVF Conf. Computer
+  Vision and Pattern Recognition (CVPR), 2025.
+
+\bibitem{leroy2024mast3r}
+V.~Leroy, Y.~Cabon, J.~Revaud, Grounding image matching in {3D} with {MASt3R},
+  in: Proc. European Conf. Computer Vision (ECCV), 2024.
+
+\bibitem{duisterhof2025mast3rsfm}
+B.~Duisterhof, L.~Zust, P.~Weinzaepfel, V.~Leroy, Y.~Cabon, J.~Revaud,
+  {MASt3R-SfM}: A fully-integrated solution for unconstrained
+  structure-from-motion, in: Proc. Int. Conf. 3D Vision (3DV), 2025.
+
+\bibitem{pan2026gluemap}
+L.~Pan, J.~L. Sch{\"o}nberger, M.~Pollefeys, Global structure-from-motion meets
+  feedforward reconstruction, in: Proc. IEEE/CVF Conf. Computer Vision and
+  Pattern Recognition (CVPR), 2026, pp. 21880--21890.
+
+\bibitem{zach2010disambiguating}
+C.~Zach, M.~Klopschitz, M.~Pollefeys, Disambiguating visual relations using
+  loop constraints, in: Proc. IEEE Conf. Computer Vision and Pattern
+  Recognition (CVPR), 2010.
+
+\bibitem{heinly2014correcting}
+J.~Heinly, E.~Dunn, J.-M. Frahm, Correcting for duplicate scene structure in
+  sparse {3D} reconstruction, in: Proc. European Conf. Computer Vision (ECCV),
+  2014.
+
+\bibitem{cai2023doppelgangers}
+R.~Cai, J.~Tung, Q.~Wang, H.~Averbuch-Elor, B.~Hariharan, N.~Snavely,
+  Doppelgangers: Learning to disambiguate images of similar structures, in:
+  Proc. IEEE/CVF Int. Conf. Computer Vision (ICCV), 2023.
+
+\bibitem{zhang2023revisiting}
+G.~Zhang, V.~Larsson, D.~Barath, Revisiting rotation averaging: Uncertainties
+  and robust losses, in: Proc. IEEE/CVF Conf. Computer Vision and Pattern
+  Recognition (CVPR), 2023, pp. 17215--17224.
+
+\bibitem{olsson2025certifiably}
+C.~Olsson, Y.~Lochman, J.~Malmport, C.~Zach, Certifiably optimal anisotropic
+  rotation averaging, in: Proc. IEEE/CVF Int. Conf. Computer Vision (ICCV),
+  2025, arXiv:2503.07353.
+
+\bibitem{deng2026audit}
+N.~N. Deng, Q.~Cheng, N.~Zeller, D.~Cremers, A calibration audit of confidence
+  in feed-forward {3D} reconstruction models, arXiv:2608.29705 (2026).
+
+\bibitem{chatterjee2018robust}
+A.~Chatterjee, V.~M. Govindu, Robust relative rotation averaging, IEEE Trans.
+  Pattern Analysis and Machine Intelligence 40~(4) (2018) 958--972.
+
+\bibitem{hartley2011l1}
+R.~Hartley, K.~Aftab, J.~Trumpf, {L1} rotation averaging using the {W}eiszfeld
+  algorithm, in: Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2011.
+
+\bibitem{sidhartha2021weights}
+C.~Sidhartha, V.~M. Govindu, It is all in the weights: Robust rotation
+  averaging revisited, in: Proc. Int. Conf. 3D Vision (3DV), 2021.
+
+\bibitem{vovk2005algorithmic}
+V.~Vovk, A.~Gammerman, G.~Shafer, Algorithmic Learning in a Random World,
+  Springer, 2005.
+
+\bibitem{angelopoulos2023gentle}
+A.~N. Angelopoulos, S.~Bates, Conformal prediction: A gentle introduction,
+  Foundations and Trends in Machine Learning 16~(4) (2023) 494--591.
+
+\bibitem{angelopoulos2024crc}
+A.~N. Angelopoulos, S.~Bates, A.~Fisch, L.~Lei, T.~Schuster, Conformal risk
+  control, in: Proc. Int. Conf. Learning Representations (ICLR), 2024.
+
+\bibitem{yang2023object}
+H.~Yang, M.~Pavone, Object pose estimation with statistical guarantees:
+  Conformal keypoint detection and geometric uncertainty propagation, in: Proc.
+  IEEE/CVF Conf. Computer Vision and Pattern Recognition (CVPR), 2023.
+
+\bibitem{stutts2023conformal}
+A.~C. Stutts, D.~Erricolo, T.~Tulabandhula, A.~R. Trivedi, Lightweight,
+  uncertainty-aware conformalized visual odometry, arXiv:2303.02207 (2023).
+
+\bibitem{pathak2026adaptive}
+A.~Pathak, H.~Seifi, Adaptive geodesic conformal prediction for egocentric
+  camera pose estimation, arXiv:2605.00233 (2026).
+
+\bibitem{ahmedt2026geocond}
+D.~Ahmedt-Aristizabal, M.~A. Armin, R.~Tsuchida, L.~Petersson, {GeoCond}: A
+  conditioning-aware reliability adapter for feed-forward {3D} reconstruction,
+  arXiv:2609.18465 (2026).
+
+\bibitem{wilson2014robust}
+K.~Wilson, N.~Snavely, Robust global translations with {1DSfM}, in: Proc.
+  European Conf. Computer Vision (ECCV), 2014.
+
+\bibitem{schops2017eth3d}
+T.~Sch{\"o}ps, J.~L. Sch{\"o}nberger, S.~Galliani, T.~Sattler, K.~Schindler,
+  M.~Pollefeys, A.~Geiger, A multi-view stereo benchmark with high-resolution
+  images and multi-camera videos, in: Proc. IEEE Conf. Computer Vision and
+  Pattern Recognition (CVPR), 2017, pp. 3260--3269.
+
+\bibitem{hartley2013rotation}
+R.~Hartley, J.~Trumpf, Y.~Dai, H.~Li, Rotation averaging, International Journal
+  of Computer Vision 103~(3) (2013) 267--305.
+
+\bibitem{govindu2004lie}
+V.~M. Govindu, Lie-algebraic averaging for globally consistent motion
+  estimation, in: Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2004.
+
+\bibitem{martinec2007robust}
+D.~Martinec, T.~Pajdla, Robust rotation and translation estimation in multiview
+  reconstruction, in: Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2007.
+
+\bibitem{eriksson2018rotation}
+A.~Eriksson, C.~Olsson, F.~Kahl, T.-J. Chin, Rotation averaging and strong
+  duality, in: Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2018.
+
+\bibitem{rosen2019sesync}
+D.~M. Rosen, L.~Carlone, A.~S. Bandeira, J.~J. Leonard, {SE-Sync}: A
+  certifiably correct algorithm for synchronization over the special
+  {E}uclidean group, International Journal of Robotics Research 38~(2--3)
+  (2019) 95--125.
+
+\bibitem{dellaert2020shonan}
+F.~Dellaert, D.~M. Rosen, J.~Wu, R.~Mahony, L.~Carlone, Shonan rotation
+  averaging: Global optimality by surfing $so(p)^n$, in: Proc. European Conf.
+  Computer Vision (ECCV), 2020.
+
+\bibitem{chatterjee2013efficient}
+A.~Chatterjee, V.~M. Govindu, Efficient and robust large-scale rotation
+  averaging, in: Proc. IEEE Int. Conf. Computer Vision (ICCV), 2013.
+
+\bibitem{geman1987statistical}
+S.~Geman, D.~E. McClure, Statistical methods for tomographic image
+  reconstruction, Bulletin of the International Statistical Institute 52~(4)
+  (1987) 5--21.
+
+\bibitem{purkait2020neurora}
+P.~Purkait, T.-J. Chin, I.~Reid, {NeuRoRA}: Neural robust rotation averaging,
+  in: Proc. European Conf. Computer Vision (ECCV), 2020.
+
+\bibitem{lee2022hara}
+S.~H. Lee, J.~Civera, {HARA}: A hierarchical approach for robust rotation
+  averaging, in: Proc. IEEE/CVF Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2022.
+
+\bibitem{enqvist2011nonsequential}
+O.~Enqvist, F.~Kahl, C.~Olsson, Non-sequential structure from motion, in: Proc.
+  IEEE Int. Conf. Computer Vision Workshops (ICCVW), 2011.
+
+\bibitem{moulon2013global}
+P.~Moulon, P.~Monasse, R.~Marlet, Global fusion of relative motions for robust,
+  accurate and scalable structure from motion, in: Proc. IEEE Int. Conf.
+  Computer Vision (ICCV), 2013.
+
+\bibitem{xiangli2025doppelgangerspp}
+Y.~Xiangli, R.~Cai, H.~Chen, J.~Byrne, N.~Snavely, Doppelgangers++: Improved
+  visual disambiguation with geometric {3D} features, in: Proc. IEEE/CVF Conf.
+  Computer Vision and Pattern Recognition (CVPR), 2025.
+
+\bibitem{xu2026pruning}
+J.~Xu, L.~Yao, W.~Dai, R.~Gu, Z.~Zhu, W.~Xu, G.~Xu, Robust global
+  structure-from-motion via view graph pruning, Computational Visual Media
+  (research article), arXiv:2608.22054 (2026).
+
+\bibitem{wang2024dust3r}
+S.~Wang, V.~Leroy, Y.~Cabon, B.~Chidlovskii, J.~Revaud, {DUSt3R}: Geometric
+  {3D} vision made easy, in: Proc. IEEE/CVF Conf. Computer Vision and Pattern
+  Recognition (CVPR), 2024.
+
+\bibitem{lei2018distribution}
+J.~Lei, M.~G'Sell, A.~Rinaldo, R.~J. Tibshirani, L.~Wasserman,
+  Distribution-free predictive inference for regression, Journal of the
+  American Statistical Association 113~(523) (2018) 1094--1111.
+
+\bibitem{tibshirani2019covariate}
+R.~J. Tibshirani, R.~F. Barber, E.~Cand{\`e}s, A.~Ramdas, Conformal prediction
+  under covariate shift, in: Advances in Neural Information Processing Systems
+  (NeurIPS), 2019.
+
+\bibitem{gibbs2021adaptive}
+I.~Gibbs, E.~Cand{\`e}s, Adaptive conformal inference under distribution shift,
+  in: Advances in Neural Information Processing Systems (NeurIPS), 2021.
+
+\bibitem{barber2023beyond}
+R.~F. Barber, E.~J. Cand{\`e}s, A.~Ramdas, R.~J. Tibshirani, Conformal
+  prediction beyond exchangeability, Annals of Statistics 51~(2) (2023)
+  816--845.
+
+\bibitem{massart1990tight}
+P.~Massart, The tight constant in the {D}voretzky--{K}iefer--{W}olfowitz
+  inequality, Annals of Probability 18~(3) (1990) 1269--1283.
+
+\bibitem{holm1979simple}
+S.~Holm, A simple sequentially rejective multiple test procedure, Scandinavian
+  Journal of Statistics 6~(2) (1979) 65--70.
+
+\bibitem{ozyesil2015robust}
+O.~{\"O}zye{\c{s}}il, A.~Singer, Robust camera location estimation by convex
+  programming, in: Proc. IEEE Conf. Computer Vision and Pattern Recognition
+  (CVPR), 2015, pp. 2674--2683.
+
+\bibitem{sakaridis2021acdc}
+C.~Sakaridis, D.~Dai, L.~Van~Gool, {ACDC}: The adverse conditions dataset with
+  correspondences for semantic driving scene understanding, in: Proc. IEEE/CVF
+  Int. Conf. Computer Vision (ICCV), 2021.
+
+\end{thebibliography}

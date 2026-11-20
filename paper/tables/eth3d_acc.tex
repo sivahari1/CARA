@@ -1,0 +1,12 @@
+\begin{table*}[!htbp]\centering\footnotesize
+\caption{ETH3D with the VGGT front end: AUC@5$^\circ$ (mean over the 7 held-out test scenes, 95\% bootstrap interval over scenes; 70 sub-scenes of 12 cameras per condition, 5 calibration seeds). Best mean per row in bold. The last column counts test scenes on which CARA beats CG.}\label{tab:eth3d}
+\setlength{\tabcolsep}{3pt}\resizebox{\textwidth}{!}{\begin{tabular}{lcccccccc}\toprule
+Condition & CG & ConfW & GLOMAP-RA & Shonan-H & CG-$\hat\rho$ & CARA-static & CARA & CARA$>$CG \\\midrule
+clean & 0.621\,{\scriptsize[0.501,0.731]} & 0.654\,{\scriptsize[0.538,0.757]} & 0.626\,{\scriptsize[0.513,0.738]} & 0.589\,{\scriptsize[0.465,0.701]} & 0.628\,{\scriptsize[0.504,0.739]} & \textbf{0.657\,{\scriptsize[0.558,0.735]}} & 0.648\,{\scriptsize[0.538,0.736]} & 3/7 \\
+fog $t{=}0.7$ & 0.609\,{\scriptsize[0.484,0.726]} & \textbf{0.640\,{\scriptsize[0.509,0.759]}} & 0.612\,{\scriptsize[0.491,0.729]} & 0.571\,{\scriptsize[0.453,0.687]} & 0.608\,{\scriptsize[0.475,0.730]} & 0.626\,{\scriptsize[0.499,0.736]} & 0.622\,{\scriptsize[0.496,0.733]} & 3/7 \\
+fog $t{=}0.5$ & 0.596\,{\scriptsize[0.470,0.716]} & \textbf{0.653\,{\scriptsize[0.533,0.757]}} & 0.594\,{\scriptsize[0.463,0.717]} & 0.545\,{\scriptsize[0.412,0.671]} & 0.593\,{\scriptsize[0.465,0.716]} & 0.618\,{\scriptsize[0.503,0.722]} & 0.613\,{\scriptsize[0.500,0.722]} & 4/7 \\
+fog $t{=}0.3$ & 0.569\,{\scriptsize[0.423,0.703]} & \textbf{0.601\,{\scriptsize[0.435,0.739]}} & 0.553\,{\scriptsize[0.389,0.702]} & 0.523\,{\scriptsize[0.372,0.661]} & 0.572\,{\scriptsize[0.435,0.700]} & 0.580\,{\scriptsize[0.449,0.694]} & 0.574\,{\scriptsize[0.427,0.701]} & 4/7 \\
+low light $0.3$ & 0.544\,{\scriptsize[0.404,0.677]} & 0.565\,{\scriptsize[0.417,0.706]} & 0.564\,{\scriptsize[0.434,0.682]} & 0.536\,{\scriptsize[0.416,0.659]} & 0.570\,{\scriptsize[0.438,0.692]} & \textbf{0.581\,{\scriptsize[0.444,0.702]}} & 0.565\,{\scriptsize[0.412,0.697]} & 3/7 \\
+low light $0.15$ & 0.502\,{\scriptsize[0.355,0.656]} & 0.546\,{\scriptsize[0.387,0.686]} & 0.526\,{\scriptsize[0.395,0.657]} & 0.491\,{\scriptsize[0.350,0.625]} & 0.497\,{\scriptsize[0.353,0.645]} & \textbf{0.584\,{\scriptsize[0.458,0.697]}} & 0.571\,{\scriptsize[0.441,0.689]} & 6/7 \\
+rain & 0.528\,{\scriptsize[0.427,0.629]} & 0.524\,{\scriptsize[0.422,0.634]} & 0.512\,{\scriptsize[0.411,0.625]} & 0.505\,{\scriptsize[0.408,0.613]} & 0.528\,{\scriptsize[0.422,0.633]} & 0.534\,{\scriptsize[0.427,0.635]} & \textbf{0.546\,{\scriptsize[0.444,0.646]}} & 3/7 \\
+\bottomrule\end{tabular}}\end{table*}

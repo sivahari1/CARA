@@ -1,0 +1,11 @@
+\begin{table}[!htbp]\centering\footnotesize
+\caption{Pre-registered hypotheses for the confirmatory run. Difference averaged over the 13 test scenes, scenes in favour, exact sign-flip $p$ (one-sided for H1--H3 as pre-registered; two-sided for H4--H6, whose sidedness was not pre-registered) and Holm-adjusted $p$ over H1--H6.}\label{tab:v2hyp}
+\setlength{\tabcolsep}{2.5pt}\resizebox{\columnwidth}{!}{\begin{tabular}{llcccc}\toprule
+ & Hypothesis & diff. & scenes & $p$ & $p_{\mathrm{Holm}}$ \\\midrule
+H1 & E2 raises hard-camera coverage (degraded) & +0.110 & 11/13 & 0.0005 & 0.0024 \\
+H2 & E2 raises overall coverage (degraded) & +0.031 & 7/13 & 0.0447 & 0.0894 \\
+H3 & E2 normalizer ranks catastrophic cameras better than $u$ & +0.002 & 5/12 & 0.4160 & 0.4160 \\
+H4 & learned $\hat\sigma$ raises CARA's AUC@5 & +0.020 & 11/13 & 0.0181 & 0.0723 \\
+H5 & learned $\hat\sigma$ raises outlier AUROC & +0.172 & 13/13 & 0.0002 & 0.0015 \\
+H6 & CARA+gate lowers median position error vs CG & +0.037 & 9/13 & 0.0298 & 0.0894 \\
+\bottomrule\end{tabular}}\end{table}

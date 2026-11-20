@@ -1,0 +1,8 @@
+brandenburg_gate
+buckingham_palace
+colosseum_exterior
+grand_place_brussels
+lincoln_memorial_statue
+pantheon_exterior
+sagrada_familia
+st_pauls_cathedral

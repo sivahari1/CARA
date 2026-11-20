@@ -1,0 +1,34 @@
+\section{Proofs}\label{app:proofs}
+
+\begin{lemma}[Conformal risk control~\cite{angelopoulos2024crc}]\label{lem:crc}
+Let $L_1,\dots,L_{N+1}:\mathbb{R}\cup\{+\infty\}\to[0,1]$ be exchangeable random functions that are non-increasing and right-continuous with $L_t(+\infty)=0$, and let $\hat\lambda$ be defined by \eqref{eq:crc} from $L_1,\dots,L_N$. Then $\mathbb{E}[L_{N+1}(\hat\lambda)]\le\alpha$.
+\end{lemma}
+\begin{proof}
+Let $\hat R_{N+1}(\lambda)=\frac{1}{N+1}\sum_{t=1}^{N+1}L_t(\lambda)$ and $\lambda'=\inf\{\lambda:\hat R_{N+1}(\lambda)\le\alpha\}$. Because $L_{N+1}\le1$, $\hat R_{N+1}(\lambda)\le\frac{N}{N+1}\hat R_N(\lambda)+\frac{1}{N+1}$ for every $\lambda$. By right-continuity the infimum in \eqref{eq:crc} is attained, so $\hat R_{N+1}(\hat\lambda)\le\alpha$, which gives $\lambda'\le\hat\lambda$, and by monotonicity $L_{N+1}(\hat\lambda)\le L_{N+1}(\lambda')$. The threshold $\lambda'$ is a symmetric function of $(L_1,\dots,L_{N+1})$, so by exchangeability $\mathbb{E}[L_{N+1}(\lambda')]=\mathbb{E}[\hat R_{N+1}(\lambda')]\le\alpha$, where the last step uses right-continuity again.
+\end{proof}
+
+In our losses $L(+\infty)=0$ by construction (scores are finite, and an infinite residual satisfies $r\le+\infty$). A scene with an empty set of inlier edges or registered cameras has $L\equiv0$; this case did not occur in our experiments.
+
+\begin{proof}[Proof of \cref{thm:edge}]
+Condition on $\mathcal{D}_{\mathrm{fit}}$; then $g$ and $\hat F_C$ are fixed and the round-one scores (including the scene's own $\hat\rho$) are a fixed measurable function of each scene. The losses \eqref{eq:edgeloss} of the scenes in $\mathcal{D}_{\mathrm{edge}}$ and of the test scene are therefore exchangeable, take values in $[0,1]$, and are non-increasing and right-continuous step functions of $\lambda$. \Cref{lem:crc} gives $\mathbb{E}[L^{\mathrm{edge}}_{Z_{N+1}}(\hat\lambda_{\mathrm{edge}})]\le\alpha_{\mathrm{edge}}$ for round one. Round two only adds edges to the accepted set, so the set of rejected testable inliers after rescue is a subset of the round-one rejected set and its fraction is no larger. Removing the conditioning preserves the bound. In the implementation $\hat R_N$ is a step function whose jumps lie at calibration scores, so minimizing over the finite grid of calibration scores and $0$ returns the infimum in \eqref{eq:crc}.
+\end{proof}
+
+\begin{proof}[Proof of \cref{thm:res}]
+Condition on $\mathcal{D}_{\mathrm{fit}}\cup\mathcal{D}_{\mathrm{edge}}$. The first solve, including gating with the now fixed $\hat\lambda_{\mathrm{edge}}$, pruning and bridging with the fixed constant $\beta$, is a fixed function of each scene, so the residual losses are exchangeable across $\mathcal{D}_{\mathrm{res}}$ and the test scene, bounded in $[0,1]$, non-increasing and right-continuous; \cref{lem:crc} applies.
+\end{proof}
+
+\begin{proof}[Proof of \cref{thm:cam}]
+Condition on the first three splits. The full pipeline is then a fixed function of the scene, so the losses \eqref{eq:camloss} of the scenes in $\mathcal{D}_{\mathrm{cam}}$ and of the test scene are exchangeable, lie in $[0,1]$, and are non-increasing and right-continuous in $\lambda$ because $u_i>0$. Apply \cref{lem:crc}.
+\end{proof}
+
+\begin{proof}[Proof of \cref{lem:equiv}]
+Write $\tilde R_{ij}=R_{ij}\operatorname{Exp}(\rho\eta_{ij})$. For a triangle $(i,j,k)$ of inlier edges, $C_{ijk}=\operatorname{Exp}(\rho\,\mathrm{Ad}_1\eta_{ki})\operatorname{Exp}(\rho\,\mathrm{Ad}_2\eta_{jk})\operatorname{Exp}(\rho\eta_{ij})$ with rotation matrices $\mathrm{Ad}_1,\mathrm{Ad}_2$ that depend only on the true rotations. By the Baker--Campbell--Hausdorff formula, $\operatorname{Log}C_{ijk}=\rho(\eta_{ij}+\mathrm{Ad}_2\eta_{jk}+\mathrm{Ad}_1\eta_{ki})+O(\rho^2\|\eta\|^2)$, so its norm scales by $\rho$ to first order, and so does every quantile of such norms divided by quantities that do not depend on $\rho$; this is (a) for scores whose low quantile is attained on inlier triangles. By hypothesis $\hat\rho$ scales by $\rho$, which gives (b) for scores; for residuals it follows from (c). For (c), linearize one IRLS step around the true rotations: the update solves $\sum_{(i,j)}w_{ij}(\omega_j-\omega_i-d_{ij})=0$ with $d_{ij}$ linear in the noise and weights $w_{ij}=\pi_{ij}\kappa(\|d_{ij}\|/(c\hat\rho))$. The Geman--McClure factor is invariant when $d$ and $\hat\rho$ both scale by $\rho$; the $L_1$ factor $1/\|d\|$ and the prior weights $\pi_{ij}\propto(\hat\rho\sigma_{ij})^{-2}$ scale uniformly and cancel. For an accepted outlier edge the residual $r_{\mathrm{out}}$ does not shrink with the noise, and its Geman--McClure weight is $\pi\,(c\hat\rho/r_{\mathrm{out}})^4(1+O((c\hat\rho/r_{\mathrm{out}})^2))$, which does not scale like the inlier weights; its pull on the solution is therefore not proportional to $\rho$. Hence the fixed point scales by $\rho$ up to a term of order $\max_{\mathrm{out}}(c\hat\rho/r_{\mathrm{out}})^4$ contributed by accepted outliers, which vanishes when no outlier edge enters the solve and is negligible when $r_{\mathrm{out}}\gg c\hat\rho$; the same holds for the camera errors. For (d), $u_i$ scales by $\hat\rho$. When no decision lies on a threshold, a small enough noise level keeps every decision unchanged, and each loss, being a function of decisions and of the ratios above, is unchanged.
+\end{proof}
+
+\begin{proof}[Proof of \cref{prop:bracket}]
+For every $t$, $G(t)\ge(1-\varepsilon)F_T(t)$ and $G(t)\le(1-\varepsilon)F_T(t)+\varepsilon$. At $t_1=\operatorname{Q}_{p/(1-\varepsilon)}(F_T)$ the first inequality gives $G(t_1)\ge p$, so $\operatorname{Q}_p(G)\le t_1=\rho^\star\operatorname{Q}_{p/(1-\varepsilon)}(F_C)$. For $t<t_2=\operatorname{Q}_{(p-\varepsilon)/(1-\varepsilon)}(F_T)$ we have $F_T(t)<(p-\varepsilon)/(1-\varepsilon)$ and the second inequality gives $G(t)<p$, so $\operatorname{Q}_p(G)\ge t_2=\rho^\star\operatorname{Q}_{(p-\varepsilon)/(1-\varepsilon)}(F_C)$. Rearranging both gives the bracket. The map $\varepsilon\mapsto(p-\varepsilon)/(1-\varepsilon)$ is decreasing for $p<1$, so replacing $\varepsilon$ by $\bar\varepsilon\ge\varepsilon$ lowers the denominator and raises the upper end, which proves $\hat\rho_{\mathrm{safe}}\ge\rho^\star$ at the population level. The outer $\max(1,\cdot)$ only increases it.
+\end{proof}
+
+\begin{proof}[Proof of \cref{cor:mono}]
+In round one the gate accepts $e$ iff $s_e/\hat\rho\le\hat\lambda_{\mathrm{edge}}$ or $s_e$ is undefined, a condition that is monotone in $\hat\rho$. For a fixed accepted set, $B_i=\hat\lambda_{\mathrm{cam}}\hat\rho\,u_i^{(1)}$ with $u_i^{(1)}$ computed at $\hat\rho=1$.
+\end{proof}

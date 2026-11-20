@@ -1,0 +1,3922 @@
+[
+ {
+  "file": "test__courtyard__000__clean.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__000__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__clean.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__001__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__courtyard__002__clean.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__002__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__003__clean.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__003__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__courtyard__004__clean.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__004__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__courtyard__005__clean.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__005__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__courtyard__006__clean.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__006__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__clean.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__007__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__clean.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__008__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__courtyard__009__clean.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__fog0.7.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__fog0.5.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__fog0.3.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__low0.3.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__low0.15.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__courtyard__009__rain0.5.npz",
+  "scene": "courtyard",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__clean.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__000__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__001__clean.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__001__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__002__clean.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__002__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__003__clean.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__003__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__clean.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__004__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__delivery_area__005__clean.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__005__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 40
+ },
+ {
+  "file": "test__delivery_area__006__clean.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__006__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__delivery_area__007__clean.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__007__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__delivery_area__008__clean.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__008__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__clean.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__fog0.7.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__fog0.5.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__fog0.3.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__low0.3.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__low0.15.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__delivery_area__009__rain0.5.npz",
+  "scene": "delivery_area",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__facade__000__clean.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__fog0.7.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__fog0.5.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__fog0.3.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__low0.3.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__low0.15.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__000__rain0.5.npz",
+  "scene": "facade",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__001__clean.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__fog0.7.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__fog0.5.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__fog0.3.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__low0.3.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__low0.15.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__001__rain0.5.npz",
+  "scene": "facade",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__clean.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__fog0.7.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__fog0.5.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__fog0.3.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__low0.3.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__low0.15.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__002__rain0.5.npz",
+  "scene": "facade",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__facade__003__clean.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__fog0.7.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__fog0.5.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__fog0.3.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__low0.3.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__low0.15.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__003__rain0.5.npz",
+  "scene": "facade",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 48
+ },
+ {
+  "file": "test__facade__004__clean.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__fog0.7.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__fog0.5.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__fog0.3.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__low0.3.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__low0.15.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__004__rain0.5.npz",
+  "scene": "facade",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__facade__005__clean.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__fog0.7.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__fog0.5.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__fog0.3.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__low0.3.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__low0.15.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__005__rain0.5.npz",
+  "scene": "facade",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__006__clean.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__fog0.7.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__fog0.5.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__fog0.3.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__low0.3.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__low0.15.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__006__rain0.5.npz",
+  "scene": "facade",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 46
+ },
+ {
+  "file": "test__facade__007__clean.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__fog0.7.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__fog0.5.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__fog0.3.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__low0.3.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__low0.15.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__007__rain0.5.npz",
+  "scene": "facade",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__008__clean.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__fog0.7.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__fog0.5.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__fog0.3.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__low0.3.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__low0.15.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__008__rain0.5.npz",
+  "scene": "facade",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 49
+ },
+ {
+  "file": "test__facade__009__clean.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__fog0.7.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__fog0.5.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__fog0.3.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__low0.3.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__low0.15.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__facade__009__rain0.5.npz",
+  "scene": "facade",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__office__000__clean.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__fog0.7.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__fog0.5.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__fog0.3.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__low0.3.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__low0.15.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__000__rain0.5.npz",
+  "scene": "office",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__001__clean.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__fog0.7.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__fog0.5.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__fog0.3.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__low0.3.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__low0.15.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__001__rain0.5.npz",
+  "scene": "office",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__office__002__clean.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__fog0.7.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__fog0.5.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__fog0.3.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__low0.3.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__low0.15.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__002__rain0.5.npz",
+  "scene": "office",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__003__clean.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__fog0.7.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__fog0.5.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__fog0.3.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__low0.3.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__low0.15.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__003__rain0.5.npz",
+  "scene": "office",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__office__004__clean.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__fog0.7.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__fog0.5.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__fog0.3.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__low0.3.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__low0.15.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__004__rain0.5.npz",
+  "scene": "office",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 31
+ },
+ {
+  "file": "test__office__005__clean.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__fog0.7.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__fog0.5.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__fog0.3.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__low0.3.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__low0.15.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__005__rain0.5.npz",
+  "scene": "office",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__office__006__clean.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__fog0.7.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__fog0.5.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__fog0.3.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__low0.3.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__low0.15.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__006__rain0.5.npz",
+  "scene": "office",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__office__007__clean.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__fog0.7.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__fog0.5.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__fog0.3.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__low0.3.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__low0.15.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__007__rain0.5.npz",
+  "scene": "office",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__office__008__clean.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__fog0.7.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__fog0.5.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__fog0.3.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__low0.3.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__low0.15.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__008__rain0.5.npz",
+  "scene": "office",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__office__009__clean.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__fog0.7.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__fog0.5.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__fog0.3.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__low0.3.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__low0.15.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__office__009__rain0.5.npz",
+  "scene": "office",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__000__clean.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__fog0.7.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__fog0.5.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__fog0.3.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__low0.3.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__low0.15.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__000__rain0.5.npz",
+  "scene": "playground",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__001__clean.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__fog0.7.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__fog0.5.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__fog0.3.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__low0.3.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__low0.15.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__001__rain0.5.npz",
+  "scene": "playground",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 45
+ },
+ {
+  "file": "test__playground__002__clean.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__fog0.7.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__fog0.5.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__fog0.3.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__low0.3.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__low0.15.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__002__rain0.5.npz",
+  "scene": "playground",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__003__clean.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__fog0.7.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__fog0.5.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__fog0.3.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__low0.3.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__low0.15.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__003__rain0.5.npz",
+  "scene": "playground",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__004__clean.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__fog0.7.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__fog0.5.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__fog0.3.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__low0.3.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__low0.15.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__004__rain0.5.npz",
+  "scene": "playground",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__playground__005__clean.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__fog0.7.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__fog0.5.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__fog0.3.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__low0.3.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__low0.15.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__005__rain0.5.npz",
+  "scene": "playground",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 47
+ },
+ {
+  "file": "test__playground__006__clean.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__fog0.7.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__fog0.5.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__fog0.3.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__low0.3.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__low0.15.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__006__rain0.5.npz",
+  "scene": "playground",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__007__clean.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__fog0.7.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__fog0.5.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__fog0.3.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__low0.3.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__low0.15.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__007__rain0.5.npz",
+  "scene": "playground",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__008__clean.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__fog0.7.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__fog0.5.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__fog0.3.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__low0.3.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__low0.15.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__008__rain0.5.npz",
+  "scene": "playground",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__playground__009__clean.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__fog0.7.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__fog0.5.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__fog0.3.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__low0.3.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__low0.15.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__playground__009__rain0.5.npz",
+  "scene": "playground",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__000__clean.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__fog0.7.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__fog0.5.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__fog0.3.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__low0.3.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__low0.15.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__000__rain0.5.npz",
+  "scene": "relief",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__001__clean.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__fog0.7.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__fog0.5.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__fog0.3.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__low0.3.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__low0.15.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__001__rain0.5.npz",
+  "scene": "relief",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 41
+ },
+ {
+  "file": "test__relief__002__clean.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__fog0.7.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__fog0.5.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__fog0.3.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__low0.3.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__low0.15.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__002__rain0.5.npz",
+  "scene": "relief",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 39
+ },
+ {
+  "file": "test__relief__003__clean.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__fog0.7.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__fog0.5.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__fog0.3.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__low0.3.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__low0.15.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__003__rain0.5.npz",
+  "scene": "relief",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__004__clean.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__fog0.7.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__fog0.5.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__fog0.3.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__low0.3.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__low0.15.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__004__rain0.5.npz",
+  "scene": "relief",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__005__clean.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__fog0.7.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__fog0.5.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__fog0.3.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__low0.3.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__low0.15.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__005__rain0.5.npz",
+  "scene": "relief",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 42
+ },
+ {
+  "file": "test__relief__006__clean.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__fog0.7.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__fog0.5.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__fog0.3.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__low0.3.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__low0.15.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__006__rain0.5.npz",
+  "scene": "relief",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 24
+ },
+ {
+  "file": "test__relief__007__clean.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__fog0.7.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__fog0.5.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__fog0.3.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__low0.3.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__low0.15.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__007__rain0.5.npz",
+  "scene": "relief",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 27
+ },
+ {
+  "file": "test__relief__008__clean.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__fog0.7.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__fog0.5.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__fog0.3.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__low0.3.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__low0.15.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__008__rain0.5.npz",
+  "scene": "relief",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 44
+ },
+ {
+  "file": "test__relief__009__clean.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__fog0.7.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__fog0.5.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__fog0.3.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__low0.3.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__low0.15.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__relief__009__rain0.5.npz",
+  "scene": "relief",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 43
+ },
+ {
+  "file": "test__terrace__000__clean.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "clean",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__low0.3.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__low0.15.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__000__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 0,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__001__clean.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "clean",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__low0.3.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__low0.15.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__001__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 1,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__clean.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "clean",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__low0.3.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__low0.15.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__002__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 2,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__clean.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "clean",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__low0.3.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__low0.15.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__003__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 3,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__004__clean.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "clean",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__low0.3.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__low0.15.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__004__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 4,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 30
+ },
+ {
+  "file": "test__terrace__005__clean.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "clean",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__low0.3.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__low0.15.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__005__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 5,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 28
+ },
+ {
+  "file": "test__terrace__006__clean.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "clean",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__low0.3.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__low0.15.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__006__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 6,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__007__clean.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "clean",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__low0.3.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__low0.15.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__007__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 7,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 25
+ },
+ {
+  "file": "test__terrace__008__clean.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "clean",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__low0.3.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__low0.15.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__008__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 8,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 26
+ },
+ {
+  "file": "test__terrace__009__clean.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "clean",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__fog0.7.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "fog0.7",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__fog0.5.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "fog0.5",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__fog0.3.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "fog0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__low0.3.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "low0.3",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__low0.15.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "low0.15",
+  "n": 12,
+  "m": 29
+ },
+ {
+  "file": "test__terrace__009__rain0.5.npz",
+  "scene": "terrace",
+  "sub": 9,
+  "cond": "rain0.5",
+  "n": 12,
+  "m": 29
+ }
+]

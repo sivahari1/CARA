@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{schops2017eth3d}
+T.~Sch{\"o}ps, J.~L. Sch{\"o}nberger, S.~Galliani, T.~Sattler, K.~Schindler,
+  M.~Pollefeys, A.~Geiger, A multi-view stereo benchmark with high-resolution
+  images and multi-camera videos, in: Proc. IEEE Conf. Computer Vision and
+  Pattern Recognition (CVPR), 2017, pp. 3260--3269.
+
+\bibitem{wang2025vggt}
+J.~Wang, M.~Chen, N.~Karaev, A.~Vedaldi, C.~Rupprecht, D.~Novotny, {VGGT}:
+  Visual geometry grounded transformer, in: Proc. IEEE/CVF Conf. Computer
+  Vision and Pattern Recognition (CVPR), 2025.
+
+\end{thebibliography}

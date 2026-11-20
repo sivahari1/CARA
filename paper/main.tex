@@ -1,0 +1,87 @@
+\documentclass[preprint,12pt]{elsarticle}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{microtype}
+\usepackage[section]{placeins}
+\setlength{\emergencystretch}{2em}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{lineno}
+\usepackage[hidelinks]{hyperref}
+\usepackage[capitalise,nameinlink]{cleveref}
+
+\renewcommand{\topfraction}{0.9}\renewcommand{\textfraction}{0.07}\renewcommand{\floatpagefraction}{0.75}
+\setcounter{topnumber}{3}\setcounter{totalnumber}{4}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+\newtheorem{assumption}{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\crefname{assumption}{Assumption}{Assumptions}
+\crefname{algorithm}{Algorithm}{Algorithms}
+\DeclareMathOperator{\Exp}{Exp}
+\newcommand{\supp}[1]{Supplementary Section~S#1}
+
+\journal{Image and Vision Computing}
+
+\begin{document}
+\begin{frontmatter}
+
+\title{CARA: Conformally calibrated, drift-aware rotation averaging for global structure-from-motion}
+
+\author[a]{Siva Ramakrishna Jeevakala\corref{cor1}}
+\ead{jsrkrishna3@gmail.com}
+\cortext[cor1]{Corresponding author. ORCID: 0000-0003-0673-055X}
+\author[b]{A. P. Siva Kumar}
+\ead{sivakumar.cse@jntua.ac.in}
+\affiliation[a]{organization={Department of Computer Science and Engineering (AI \& ML), G. Pulla Reddy Engineering College (Autonomous)},
+            addressline={Nandyal Road},
+            city={Kurnool},
+            postcode={518007},
+            state={Andhra Pradesh},
+            country={India}}
+\affiliation[b]{organization={Department of Computer Science and Engineering, JNTUA College of Engineering, Jawaharlal Nehru Technological University Anantapur},
+            city={Ananthapuramu},
+            postcode={515002},
+            state={Andhra Pradesh},
+            country={India}}
+
+\input{sec_abstract}
+
+\begin{keyword}
+Structure from motion \sep Rotation averaging \sep Conformal risk control \sep Uncertainty calibration \sep Distribution shift \sep Learned front ends
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\input{sec_intro}
+\input{sec_related}
+\input{sec_method}
+\input{sec_theory}
+\input{sec_setup}
+\input{sec_results}
+\input{sec_discussion}
+
+\section{Conclusion}\label{sec:conclusion}
+\input{sec_conclusion}
+
+\input{sec_declarations}
+
+\bibliographystyle{elsarticle-num}
+\bibliography{refs}
+
+\appendix
+\input{sec_appendix}
+
+\end{document}

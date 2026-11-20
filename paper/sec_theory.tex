@@ -1,0 +1,60 @@
+\section{Guarantees}\label{sec:theory}
+
+Throughout, scenes $Z_1,\dots,Z_N$ of a calibration split and the test scene $Z_{N+1}$ are exchangeable conditionally on the earlier splits, which holds when all scenes are drawn i.i.d.\ and the splits are disjoint. All proofs are in \ref{app:proofs}.
+
+\begin{theorem}[Edge retention]\label{thm:edge}
+Let $\hat\lambda_{\mathrm{edge}}$ be given by \eqref{eq:crc} with the loss \eqref{eq:edgeloss} computed on $\mathcal{D}_{\mathrm{edge}}$, with scores produced by lines 1--2 of \cref{alg:cara} (including $\hat\rho$). Then the fraction of cycle-testable inlier edges of the test scene that the edge gate rejects after rescue satisfies
+\[
+\mathbb{E}\big[L^{\mathrm{edge}}_{Z_{N+1}}\big]\le\alpha_{\mathrm{edge}}.
+\]
+\end{theorem}
+
+\begin{theorem}[Residual gate and total inlier loss]\label{thm:res}
+Let $\hat\lambda_{\mathrm{res}}$ be calibrated on $\mathcal{D}_{\mathrm{res}}$ with the loss $L^{\mathrm{res}}_Z(\lambda)=|\mathcal{I}^{\mathrm{all}}_Z|^{-1}\sum_{e\in\mathcal{I}^{\mathrm{all}}_Z}\mathbb{1}[r_e>\lambda]$, where $r_e=\infty$ if an endpoint is unregistered. Then $\mathbb{E}[L^{\mathrm{res}}_{Z_{N+1}}]\le\alpha_{\mathrm{res}}$.
+\end{theorem}
+
+The residual gate re-decides every edge, so \cref{thm:edge,thm:res} control two separate decisions; they are not a bound on a combined set. The 2-core pruning that follows each gate, the consensus bridging and the final refinement over all registered edges are outside both theorems: the accepted set $\mathcal{A}$ that \cref{alg:cara} returns is the residual-gate set after pruning and bridging, and the rotations depend on all edges among registered cameras. We evaluate inlier retention and accuracy of the full pipeline empirically.
+
+\begin{theorem}[Per-camera coverage]\label{thm:cam}
+With $\hat\lambda_{\mathrm{cam}}$ calibrated on $\mathcal{D}_{\mathrm{cam}}$ with the loss \eqref{eq:camloss}, the bounds $B_i=\hat\lambda_{\mathrm{cam}}u_i$ satisfy
+\[
+\mathbb{E}\Big[\frac{1}{|\mathcal{V}_{\mathrm{reg}}|}\sum_{i\in\mathcal{V}_{\mathrm{reg}}}\mathbb{1}[e_i>B_i]\Big]\le\alpha_{\mathrm{cam}},
+\]
+where the expectation is over calibration and test scenes and $\mathcal{V}_{\mathrm{reg}}$ is the registration set of the test scene.
+\end{theorem}
+
+\begin{corollary}[Group-conditional coverage]\label{cor:group}
+Let $\hat\beta$ and the group boundaries be fixed on $\mathcal{D}_{\mathrm{fit}}$, and let $\hat\lambda^{(g)}_{\mathrm{cam}}$ be the CRC threshold for the loss $L^{(g)}_Z(\lambda)=\frac{1}{|\mathcal{V}^{(g)}_{\mathrm{reg}}|}\sum_{i\in\mathcal{V}^{(g)}_{\mathrm{reg}}}\mathbb{1}[e_i>\lambda v_i]$ over the scenes of $\mathcal{D}_{\mathrm{cam}}$ in which group $g$ is non-empty. Then, for every group $g$, $\mathbb{E}\big[L^{(g)}_{Z_{\mathrm{test}}}(\hat\lambda^{(g)}_{\mathrm{cam}})\,\big|\,\mathcal{V}^{(g)}_{\mathrm{reg}}(Z_{\mathrm{test}})\neq\emptyset\big]\le\alpha_{\mathrm{cam}}$.
+\end{corollary}
+\begin{proof}
+Given $\mathcal{D}_{\mathrm{fit}}$, the map $Z\mapsto L^{(g)}_Z(\cdot)$ is a fixed function of the scene: non-increasing in $\lambda$ and bounded by $1$. The calibration and test scenes remain exchangeable conditionally on $\mathcal{D}_{\mathrm{fit}}$, and they remain exchangeable after conditioning on the event, a function of each scene alone, that group $g$ is non-empty. The CRC theorem~\cite{angelopoulos2024crc} therefore applies to each group separately over the scenes where it is non-empty, and taking the expectation over $\mathcal{D}_{\mathrm{fit}}$ gives the claim.
+\end{proof}
+The corollary controls misses within each difficulty group, so the hardest cameras cannot be traded against the easy ones as they can under \cref{thm:cam}; it is still marginal over scenes and conditional on nothing else. The augmentation of E1 changes the calibration distribution, and each calibration scene enters in five correlated copies, so no exact finite-sample statement follows; E1 is a robustness heuristic motivated by the mixture of failure modes, and we evaluate it empirically.
+
+The guarantees are finite-sample and distribution-free under exchangeability of calibration and test scenes, and they do not require the uncertainty proxies $\sigma$ or $u$ to be correct: a poor proxy costs width, not validity. They are \emph{marginal over scenes}: they control the expected fraction of misses in a scene, not the miss probability of a particular camera. They also say nothing about the \emph{accuracy} of $\hat R$, which we evaluate empirically. Coverage refers to registered cameras; abstention is reported separately as the registration rate.
+
+\paragraph*{Shift} Under \cref{ass:scale} the test scene is no longer exchangeable with the calibration scenes, and the theorems do not apply as stated. The next two results explain why rescaling by $\hat\rho$ restores them approximately.
+
+\begin{lemma}[Scale equivariance in the small-noise limit]\label{lem:equiv}
+Suppose the shifted scene differs from an unshifted one only as in \cref{ass:scale}: same graph, same outlier edges with the same values, same $\hat\sigma$, inlier noise multiplied by $\rho^\star$. Suppose further that $\hat\rho$ on the shifted scene equals $\rho^\star$ times $\hat\rho$ on the unshifted scene, which requires that the clip $\max(1,\cdot)$ is inactive and that the quantile in \eqref{eq:rho} is attained by an inlier score. Then, to first order in the inlier noise, (a) every inlier cycle rotation vector, and hence every inlier score, scales by $\rho^\star$; (b) the normalized scores $s_e/\hat\rho$ and whitened residuals $r_e$ of inlier edges are unchanged; (c) the $L_1$ and Geman--McClure IRLS weights of inlier edges, which depend on $r/(c\hat\rho)$ or scale uniformly, are unchanged, so the camera errors scale by $\rho^\star$ up to a term of order $(c\hat\rho/r_{\mathrm{out}})^4$ from accepted outlier edges with residual $r_{\mathrm{out}}$; and (d) $e_i/u_i$ is unchanged. Consequently, in the limit of small noise in which no gate decision lies on a threshold, the shifted and unshifted scenes produce the same decisions and the same losses \eqref{eq:edgeloss} and \eqref{eq:camloss}.
+\end{lemma}
+
+The lemma describes a pure scale shift. Our heavy, sparse and $n=300$ conditions also change the outlier rate or the graph, and our real-data shift adds noise to heterogeneous intrinsic errors; none of these satisfies its hypotheses, and we treat them as tests of robustness to misspecification. The $L_1$ weight floor ($10^{-4}$\,rad) breaks exact invariance negligibly.
+
+Part (c) is the reason for scaling the Geman--McClure kernel with $\hat\rho$: with a fixed kernel scale, inlier residuals at a higher noise level fall into the flat part of the kernel and are treated as outliers. It remains to estimate $\rho^\star$ without labels in the presence of outliers.
+
+\begin{proposition}[Drift bracket under contamination]\label{prop:bracket}
+Let the test scores follow the mixture $G=(1-\varepsilon)F_T+\varepsilon H$, where $F_T$ is the law of $\rho^\star S$ with $S\sim F_C$ and $H$ is arbitrary. For $\varepsilon<p<1-\varepsilon$ and $\operatorname{Q}_{(p-\varepsilon)/(1-\varepsilon)}(F_C)>0$,
+\[
+\frac{\operatorname{Q}_p(G)}{\operatorname{Q}_{p/(1-\varepsilon)}(F_C)}\ \le\ \rho^\star\ \le\ \frac{\operatorname{Q}_p(G)}{\operatorname{Q}_{(p-\varepsilon)/(1-\varepsilon)}(F_C)}.
+\]
+In particular, if $\varepsilon\le\bar\varepsilon<p$ then the population version of $\hat\rho_{\mathrm{safe}}$ in \eqref{eq:rhosafe} satisfies $\hat\rho_{\mathrm{safe}}\ge\rho^\star$.
+\end{proposition}
+
+\begin{corollary}[Monotonicity of the first gate]\label{cor:mono}
+For fixed data, the round-one accepted edge set is non-decreasing in $\hat\rho$, and for a fixed accepted set every bound $B_i$ is non-decreasing in $\hat\rho$. The rescue round and the downstream steps are not monotone in $\hat\rho$ (a larger accepted set changes the triangles used for rescue, the solution and $u_i$), so overestimating $\rho^\star$ does not by itself guarantee conservative bounds.
+\end{corollary}
+
+\begin{remark}[What is and is not guaranteed]\label{rem:guar}
+\Cref{prop:bracket} is a population statement. With $m$ independent scores, the Dvoretzky--Kiefer--Wolfowitz inequality with Massart's constant~\cite{massart1990tight} turns it into a finite-sample bracket by shifting $p$ by $\sqrt{\log(2/\delta)/(2m)}$, but scores in one scene share triangles and are dependent, so we validate the bracket empirically (\cref{sec:drift}). The point estimate \eqref{eq:rho} has no upper-bound guarantee; it trades conservativeness for accuracy. Under shift, exchangeability fails, and \cref{lem:equiv} only gives first-order validity. Consistent groups of wrong edges (doppelgangers) are outside \cref{ass:scale} and can pass any cycle test.
+\end{remark}

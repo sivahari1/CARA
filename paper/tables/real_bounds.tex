@@ -1,0 +1,33 @@
+\begin{table}[!htbp]
+\centering
+\caption{Per-camera 90\% bounds on Notre Dame sub-graphs.}
+\label{tab:realbounds}
+\setlength{\tabcolsep}{2.5pt}
+\footnotesize
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{llccc}
+\toprule
+Cond. & Bound & Coverage (\%) & Hard-25\% cov.\ (\%) & Width ($^\circ$)\\
+\midrule
+Clean & CRC, no drift & 89.0\,{\scriptsize[86.9,91.3]} & 84.2 & 1.35\\
+ & CRC + $\hat\rho_{\mathrm{pt}}$ & 89.6\,{\scriptsize[88.2,91.3]} & 85.5 & 1.40\\
+ & CRC + $\hat\rho_{\mathrm{safe}}$ & 90.4\,{\scriptsize[88.9,92.0]} & 85.6 & 1.57\\
+\midrule
+Noise $\kappa{=}1.5$ & CRC, no drift & 87.0\,{\scriptsize[84.8,89.6]} & 80.3 & 1.58\\
+ & CRC + $\hat\rho_{\mathrm{pt}}$ & 97.6\,{\scriptsize[96.1,98.7]} & 95.9 & 3.88\\
+ & CRC + $\hat\rho_{\mathrm{safe}}$ & 96.8\,{\scriptsize[95.4,97.9]} & 94.6 & 3.30\\
+\midrule
+Noise $\kappa{=}3$ & CRC, no drift & 81.0\,{\scriptsize[76.5,85.7]} & 77.5 & 2.84\\
+ & CRC + $\hat\rho_{\mathrm{pt}}$ & 99.3\,{\scriptsize[99.1,99.5]} & 99.2 & 6.60\\
+ & CRC + $\hat\rho_{\mathrm{safe}}$ & 98.7\,{\scriptsize[98.3,99.2]} & 98.0 & 5.45\\
+\midrule
++15\% outl. & CRC, no drift & 90.2\,{\scriptsize[88.3,92.2]} & 84.5 & 1.47\\
+ & CRC + $\hat\rho_{\mathrm{pt}}$ & 94.0\,{\scriptsize[92.4,95.6]} & 90.0 & 1.88\\
+ & CRC + $\hat\rho_{\mathrm{safe}}$ & 95.2\,{\scriptsize[93.9,96.5]} & 91.5 & 2.37\\
+\midrule
+$\kappa{=}1.5$+15\% & CRC, no drift & 89.6\,{\scriptsize[88.2,91.7]} & 83.9 & 1.64\\
+ & CRC + $\hat\rho_{\mathrm{pt}}$ & 98.4\,{\scriptsize[97.8,99.0]} & 97.3 & 4.86\\
+ & CRC + $\hat\rho_{\mathrm{safe}}$ & 97.8\,{\scriptsize[97.3,98.2]} & 95.7 & 4.32\\
+\bottomrule
+\end{tabular}}
+\end{table}
